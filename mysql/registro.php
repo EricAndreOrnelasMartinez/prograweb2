@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 $name = $_POST['name'];
 $lastName = $_POST['lastname'];
 $email = $_POST['email'];
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+$sql = "INSERT INTO myguests (firstname, lastname, email)
 VALUES ('$name', '$lastName', '$email')";
 
 if($conn->query($sql) === TRUE){
