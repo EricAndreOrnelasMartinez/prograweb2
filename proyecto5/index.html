@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="info">   
+        <label for="id">ID del registro</label>
+        <input type="text" name="id" id="id">
+        <select name="op">
+            <option value="Consultar">Consultar</option>
+            <option value="Borrar">Borrar</option>
+            <option value="Modificar">Modificar</option>
+        </select>
+        <input type="submit" value="Ejecutar">
+    </form>
+    <table id="tabla" border="1"></table>
+    <form id="modificar"></form>
+    <h3 id="res"></h3>
+</body>
+<script src="./app.js"></script>
+</html>
