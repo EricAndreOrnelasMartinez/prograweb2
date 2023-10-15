@@ -60,14 +60,7 @@ button:hover{
     border-radius: 25px;
     border: black solid 3px;
 }
-h2{
-    font-size: 25px;
-    text-align: center;
-    margin-top: 20px;
-}
-h3{
-    text-align: center;
-}
+
 .bad{
     background-color: red;
     color: white;
