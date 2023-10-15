@@ -42,6 +42,7 @@ table{
 	border-collapse: collapse;
 	max-height: 100%;
     overflow-y: scroll;
+    color: black;
 }
 
 th, td{
