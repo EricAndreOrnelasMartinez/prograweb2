@@ -123,6 +123,8 @@
         </select>
         <input type="submit" value="Evaluar">
     </form>
+    <div id="aux"></div>
+    <table id="table"></table>
     <script src="./app.js"></script>
 </body>
 </html>
