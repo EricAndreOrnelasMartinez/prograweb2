@@ -9,7 +9,7 @@ if(isset($email)){
     $sql = "SELECT * FROM test WHERE email='$email'";
     $res = $conn->query($sql);
     if($res->num_rows > 0){
-        echo json_encode($res);
+        echo json_encode(mysqli_fetch_all($res, MYSQLI_ASSOC));
     }else{
         echo json_encode('2');
     }
