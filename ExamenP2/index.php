@@ -122,8 +122,9 @@
             <option value="6">Muy frecuente</option>
         </select>
         <input type="submit" value="Evaluar">
+        <h3 id="aux"></h3>
     </form>
-    <div id="aux"></div>
+    <button type="button" id="con">Consulatr resultados</button>
     <table id="table"></table>
     <script src="./app.js"></script>
 </body>
