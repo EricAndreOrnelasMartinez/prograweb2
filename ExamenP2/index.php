@@ -33,7 +33,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p3">Imposibilidad de conciliar el sueño.</label>
+        <label for="p3">Indigestiones o molestias gastrointestinales</label>
         <select name="p3">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -42,7 +42,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p4">Imposibilidad de conciliar el sueño.</label>
+        <label for="p4">Sensación de cansancio extremo o agotamiento.</label>
         <select name="p4">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -51,7 +51,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p5">Imposibilidad de conciliar el sueño.</label>
+        <label for="p5">Tendencia de comer, beber o fumar más de lo habitual.</label>
         <select name="p5">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -60,7 +60,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p6">Imposibilidad de conciliar el sueño.</label>
+        <label for="p6">Disminución del interés sexual. </label>
         <select name="p6">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -69,7 +69,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p7">Imposibilidad de conciliar el sueño.</label>
+        <label for="p7">Disminución del apetito.</label>
         <select name="p7">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -78,7 +78,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p8">Imposibilidad de conciliar el sueño.</label>
+        <label for="p8">Temblores musculares (por ejemplo tics nerviosos oparpadeos).</label>
         <select name="p8">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -87,7 +87,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p9">Imposibilidad de conciliar el sueño.</label>
+        <label for="p9">Pinchazos o sensaciones dolorosas en distintas partes del cuerpo. </label>
         <select name="p9">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -96,7 +96,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p10">Imposibilidad de conciliar el sueño.</label>
+        <label for="p10">Tentaciones fuertes de no levantarse por la mañana. </label>
         <select name="p10">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
@@ -105,7 +105,7 @@
             <option value="5">Relativamente frecuente</option>
             <option value="6">Muy frecuente</option>
         </select>
-        <label for="p11">Imposibilidad de conciliar el sueño.</label>
+        <label for="p11">Tendencias a sudar o palpitaciones.</label>
         <select name="p11">
             <option value="1">Nunca</option>
             <option value="2">Casi nunca</option>
