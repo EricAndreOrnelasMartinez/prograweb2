@@ -25,7 +25,13 @@ input{
     margin-left: 40px;
     color: black;
 }
-
+select , option{
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    margin-left: 40px;
+    color: black;
+}
 input[type="submit"]{
     margin-left: 50px;
     background-color: black;
