@@ -37,6 +37,7 @@ header{
     border-radius: 3px;
 }
 table{
+    margin-left: 40%;
 	background-color: white;
 	text-align: left;
 	border-collapse: collapse;
