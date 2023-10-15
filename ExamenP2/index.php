@@ -127,7 +127,7 @@
         <h3 id="aux"></h3>
     </form>
     <button type="button" id="con">Consulatr resultados</button>
-    <table id="table"></table>
+    <table id="table" class="main"></table>
     <script src="./app.js"></script>
 </body>
 </html>
