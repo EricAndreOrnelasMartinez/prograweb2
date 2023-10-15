@@ -1,6 +1,6 @@
 const from = document.getElementById('info')
 const aux = document.getElementById('aux')
-const ver = null
+let ver = null
 const table = document.getElementById('table')
 
 from.addEventListener('submit', e =>{
