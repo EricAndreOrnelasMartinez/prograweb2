@@ -26,7 +26,7 @@ ver.addEventListener('click', e=>{
         method: 'POST',
         body: data
     })
-    .then(res = res.json())
+    .then(res => res.json())
     .then(back =>{
         console.log(back)
     })
