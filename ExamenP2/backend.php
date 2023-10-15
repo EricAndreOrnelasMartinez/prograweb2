@@ -2,7 +2,7 @@
 require_once('./dbcon.php');
 $name = $_POST['name'];
 $email = $_POST['email'];
-echo json_encode($aux);
+echo json_encode($email);
 $num = 2;
 $aux = $_POST['p'.$num];
 $resultado = "";
