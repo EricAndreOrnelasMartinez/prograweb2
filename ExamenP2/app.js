@@ -30,6 +30,7 @@ ver.addEventListener('click', e=>{
     .then(back =>{
         if(back == 2){
             table.innerHTML = `<h3 style="background-color: red">Es necesario contestar el formulario</h3>`
+            alert('primero debes contestar el test')
         }else{
             console.log(back)
             table.innerHTML = `
