@@ -28,6 +28,10 @@ ver.addEventListener('click', e=>{
     })
     .then(res => res.json())
     .then(back =>{
-        console.log(back)
+        if(back == 2){
+            table.innerHTML = `<h3 style="background-color: red">Es necesario contestar el formulario</h3>`
+        }else{
+            console.log(back)
+        }
     })
 })
