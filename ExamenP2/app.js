@@ -34,8 +34,10 @@ ver.addEventListener('click', e=>{
             console.log(back)
             table.innerHTML = `
             <thead>
+            <tr>
                 <td>No # Pregunta</td>
                 <td>Respuesta</td>
+            </tr>
             </thead> 
             `
             output = ``
