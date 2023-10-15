@@ -41,59 +41,59 @@ ver.addEventListener('click', e=>{
                 output += `
                 <tr>
                     <td>Pregunta 1</td>
-                    <td>${back['pre' + 1]}</td>
+                    <td>${back[i].pre1}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 2</td>
-                    <td>${back['pre' + 2]}</td>
+                    <td>${back[i].pre2}</td>
                 </tr>
                  <tr>
                     <td>Pregunta 3</td>
-                    <td>${back['pre' + 3]}</td>
+                    <td>${back[i].pre3}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 4</td>
-                    <td>${back['pre' + 4]}</td>
+                    <td>${back[i].pre4}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 5</td>
-                    <td>${back['pre' + 5]}</td>
+                    <td>${back[i].pre5}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 6</td>
-                    <td>${back['pre' + 6]}</td>
+                    <td>${back[i].pre6}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 7</td>
-                    <td>${back['pre' + 7]}</td>
+                    <td>${back[i].pre7}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 8</td>
-                    <td>${back['pre' + 8]}</td>
+                    <td>${back[i].pre8}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 9</td>
-                    <td>${back['pre' + 9]}</td>
+                    <td>${back[i].pre9}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 10</td>
-                    <td>${back['pre' + 10]}</td>
+                    <td>${back[i].pre10}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 11</td>
-                    <td>${back['pre' + 11]}</td>
+                    <td>${back[i].pre11}</td>
                 </tr>
                 <tr>
                     <td>Pregunta 12</td>
-                    <td>${back['pre' + 12]}</td>
+                    <td>${back[i].pre12}</td>
                 </tr>
                 <tr>
                     <td>Resultado</td>
-                    <td>${back['resultado']}</td>
+                    <td>${back[i].resultado}</td>
                 </tr>          
                 <tr>
                     <td>ID de encuesta</td>
-                    <td>${back['id']}</td>
+                    <td>${back[i].id}</td>
                 </tr>      
                 `
             }
