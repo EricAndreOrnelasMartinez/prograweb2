@@ -2,8 +2,8 @@
 require_once('./dbcon.php');
 $name = $_POST['name'];
 $email = $_POST['email'];
-$ans = array(0, 0, 0, 0, 0, 0);
 $resultado = "";
+/*
 for($i = 1; $i <= 12; $i++){
     $aux = $_POST['p'.$i];
     $ans += $aux;
@@ -25,5 +25,5 @@ if($conn->query($sql) === TRUE){
     echo json_encode('1');
 }else{
     echo json_encode('0');
-}
+}*/
 ?>
