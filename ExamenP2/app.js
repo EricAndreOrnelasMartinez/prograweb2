@@ -33,8 +33,10 @@ ver.addEventListener('click', e=>{
         }else{
             console.log(back)
             table.innerHTML = `
-            <th>Pregunta</th>
-            <th>Respuesta</th>
+            <thead>
+                <td>No # Pregunta</td>
+                <td>Respuesta</td>
+            </thead> 
             `
             output = ``
             for(i in back){
