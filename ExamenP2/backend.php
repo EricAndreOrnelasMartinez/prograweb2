@@ -9,7 +9,7 @@ for($i = 1; $i <= 12; $i++){
     $aux = $_POST['p'.$i];
     $ans = $ans + $aux;
 }
-echo json_encode($resultado);
+echo json_encode($ans);
 if($ans >= 12 && $ans <= 24){
     $resultado = "sin estres";
 }else if($ans <= 36){
