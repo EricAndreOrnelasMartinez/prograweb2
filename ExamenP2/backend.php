@@ -9,7 +9,6 @@ for($i = 1; $i <= 12; $i++){
     $aux = $_POST['p'.$i];
     $ans = $ans + $aux;
 }
-echo json_encode($ans);
 if($ans >= 12 && $ans <= 24){
     $resultado = "sin estres";
 }else if($ans <= 36){
@@ -18,8 +17,10 @@ if($ans >= 12 && $ans <= 24){
     $resultado = "Estres medio";
 }else if($ans <= 60){
     $resultado = "Estres alto";
+}else{
+    $resultado = "Estres grave";
 }
-
+echo json_encode($resultado);
 
 /*
 $sql = "INSERT INTO test (nombre, email, preg1, preg2, preg3, preg4, preg5, preg6, preg7, preg8
