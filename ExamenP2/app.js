@@ -17,7 +17,7 @@ from.addEventListener('submit', e =>{
             <button id="ver">Mostrar resultados</button>
             `
             ver = document.getElementById('ver')
-            
+            addlistener()
         }
     })
 })
