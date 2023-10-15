@@ -12,9 +12,9 @@
     <h3>Contesta el siguiente formulario</h3>
     <form id="info">
         <label for="name">Nombre</label>
-        <input type="text" name="name">
+        <input type="text" required name="name">
         <label for="email">Correo</label>
-        <input type="text" name="email">
+        <input type="text" required name="email">
         <label for="p1">Imposibilidad de conciliar el sueño.</label>
         <select name="p1">
             <option value="1">Nunca</option>
