@@ -2,6 +2,7 @@
 require_once('./dbcon.php');
 $name = $_POST['name'];
 $email = $_POST['email'];
+echo json_encode($email);
 $resultado = "";
 /*
 for($i = 1; $i <= 12; $i++){
