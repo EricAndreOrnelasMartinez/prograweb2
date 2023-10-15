@@ -96,6 +96,7 @@ ver.addEventListener('click', e=>{
                 </tr>      
                 `
             }
+            table.innerHTML += output
         }
     })
 })
