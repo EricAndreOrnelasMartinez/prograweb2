@@ -18,8 +18,8 @@
 <th>apellido</th>
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "andre";
+$password = "hola";
 $dbname = "myDB1";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
