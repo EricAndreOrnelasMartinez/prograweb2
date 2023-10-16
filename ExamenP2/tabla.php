@@ -55,6 +55,7 @@ ini_set('display_errors', '1');
                 <td><?php echo $row['pre10'] ?></td>
                 <td><?php echo $row['pre11'] ?></td>
                 <td><?php echo $row['pre12'] ?></td>
+                <td><?php echo $row['resultado'] ?></td>
                 </tr>
                 <?php
             }
