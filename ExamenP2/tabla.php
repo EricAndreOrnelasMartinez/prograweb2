@@ -39,6 +39,7 @@ ini_set('display_errors', '1');
         if($res->num_rows > 0){
             while($row = $res->fetch_assoc()){
                 ?> 
+                <tr>
                 <td><?php $row['id'] ?></td>
                 <td><?php $row['nombre'] ?></td>
                 <td><?php $row['email'] ?></td>
@@ -54,6 +55,7 @@ ini_set('display_errors', '1');
                 <td><?php $row['pre10'] ?></td>
                 <td><?php $row['pre11'] ?></td>
                 <td><?php $row['pre12'] ?></td>
+                </tr>
                 <?php
             }
         }
