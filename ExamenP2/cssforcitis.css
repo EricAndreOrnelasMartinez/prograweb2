@@ -54,7 +54,6 @@ thead{
 	border-bottom: solid 5px purple;
 	color: white;
     position: sticky;
-    top: 100px;
 }
 
 tr:nth-child(even){
