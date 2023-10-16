@@ -10,6 +10,7 @@
 <body>
     <h1>Estres laboral</h1>
     <h3>Contesta el siguiente formulario</h3>
+    <a href="./tabla.php"><button type="button">Consulatar resultados</button></a>
     <form id="info">
         <label for="name">Nombre</label>
         <input type="text" required name="name">
