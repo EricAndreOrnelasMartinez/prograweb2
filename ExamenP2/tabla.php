@@ -40,21 +40,21 @@ ini_set('display_errors', '1');
             while($row = $res->fetch_assoc()){
                 ?> 
                 <tr>
-                <td><?php $row['id'] ?></td>
-                <td><?php $row['nombre'] ?></td>
-                <td><?php $row['email'] ?></td>
-                <td><?php $row['pre1'] ?></td>
-                <td><?php $row['pre2'] ?></td>
-                <td><?php $row['pre3'] ?></td>
-                <td><?php $row['pre4'] ?></td>
-                <td><?php $row['pre5'] ?></td>
-                <td><?php $row['pre6'] ?></td>
-                <td><?php $row['pre7'] ?></td>
-                <td><?php $row['pre8'] ?></td>
-                <td><?php $row['pre9'] ?></td>
-                <td><?php $row['pre10'] ?></td>
-                <td><?php $row['pre11'] ?></td>
-                <td><?php $row['pre12'] ?></td>
+                <td><?php echo $row['id'] ?></td>
+                <td><?php echo $row['nombre'] ?></td>
+                <td><?php echo $row['email'] ?></td>
+                <td><?php echo $row['pre1'] ?></td>
+                <td><?php echo $row['pre2'] ?></td>
+                <td><?php echo $row['pre3'] ?></td>
+                <td><?php echo $row['pre4'] ?></td>
+                <td><?php echo $row['pre5'] ?></td>
+                <td><?php echo $row['pre6'] ?></td>
+                <td><?php echo $row['pre7'] ?></td>
+                <td><?php echo $row['pre8'] ?></td>
+                <td><?php echo $row['pre9'] ?></td>
+                <td><?php echo $row['pre10'] ?></td>
+                <td><?php echo $row['pre11'] ?></td>
+                <td><?php echo $row['pre12'] ?></td>
                 </tr>
                 <?php
             }
