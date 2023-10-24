@@ -13,18 +13,18 @@ form.addEventListener('submit', e =>{
         let output
         table.innerHTML = `
         <tr>
-            <th>ID</th>
-            <th>Matricula</th>
-            <th>Semestre</th>
-            <th>Materia</th>
-            <th>Sección</th>
-            <th>Periodo</th>
-            <th>CFO</th>
-            <th>EXT</th>
-            <th>REG</th>
-            <th>CF</th>
-            <th>Creditos</th>
-            <th>Status</th>
+            <td>ID</td>
+            <td>Matricula</td>
+            <td>Semestre</td>
+            <td>Materia</td>
+            <td>Sección</td>
+            <td>Periodo</td>
+            <td>CFO</td>
+            <td>EXT</td>
+            <td>REG</td>
+            <td>CF</td>
+            <td>Creditos</td>
+            <td>Status</td>
         </tr>
         `
         for(i in back){
