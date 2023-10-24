@@ -3,6 +3,7 @@ let table = document.getElementById('table')
 
 form.addEventListener('submit', e =>{
     e.preventDefault()
+    table.innerHTML = "";
     let data = new FormData(form)
     fetch('backend.php', {
         method: 'POST',
