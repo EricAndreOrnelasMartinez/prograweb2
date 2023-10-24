@@ -1,5 +1,5 @@
 const form = document.getElementById('info')
-const table = documet.getElementById('table')
+let table = document.getElementById('table')
 
 form.addEventListener('submit', e =>{
     e.preventDefault()
