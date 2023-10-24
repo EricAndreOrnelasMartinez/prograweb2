@@ -13,34 +13,34 @@ form.addEventListener('submit', e =>{
         let output
         table.innerHTML = `
         <tr>
-            <td>ID</td>
-            <td>Matricula</td>
-            <td>Semestre</td>
-            <td>Materia</td>
-            <td>Sección</td>
-            <td>Periodo</td>
-            <td>CFO</td>
-            <td>EXT</td>
-            <td>REG</td>
-            <td>CF</td>
-            <td>Creditos</td>
-            <td>Status</td>
+            <th>ID</th>
+            <th>Matricula</th>
+            <th>Semestre</th>
+            <th>Materia</th>
+            <th>Sección</th>
+            <th>Periodo</th>
+            <th>CFO</th>
+            <th>EXT</th>
+            <th>REG</th>
+            <th>CF</th>
+            <th>Creditos</th>
+            <th>Status</th>
         </tr>
         `
         for(i in back){
             output += `
-            <tr>${back[i].id}</tr>
-            <tr>${back[i].matricula}</tr>
-            <tr>${back[i].semestre}</tr>
-            <tr>${back[i].materia}</tr>
-            <tr>${back[i].seccion}</tr>
-            <tr>${back[i].periodo}</tr>
-            <tr>${back[i].cfo}</tr>
-            <tr>${back[i].ext}</tr>
-            <tr>${back[i].reg}</tr>
-            <tr>${back[i].cf}</tr>
-            <tr>${back[i].creditos}</tr>
-            <tr>${back[i].status}</tr>
+            <td>${back[i].id}</td>
+            <td>${back[i].matricula}</td>
+            <td>${back[i].semestre}</td>
+            <td>${back[i].materia}</td>
+            <td>${back[i].seccion}</td>
+            <td>${back[i].periodo}</td>
+            <td>${back[i].cfo}</td>
+            <td>${back[i].ext}</td>
+            <td>${back[i].reg}</td>
+            <td>${back[i].cf}</td>
+            <td>${back[i].creditos}</td>
+            <td>${back[i].status}</td>
             `
         }
         table.innerHTML += output
