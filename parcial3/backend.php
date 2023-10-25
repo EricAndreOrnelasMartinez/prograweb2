@@ -31,7 +31,7 @@ if($opc === 'opc1'){
     $sql = "SELECT avg(`cf`) from kardex where `periodo` != '' and `status` != '-'";
     $res = mysqli_query($con, $sql);
     $aux = $res->fetch_assoc();
-    $ans = $aux['sum(`creditos`)'];
+    $ans = $aux['avg(`cf`)'];
     echo json_encode($ans);
 }
 ?>
