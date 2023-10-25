@@ -11,6 +11,9 @@ form.addEventListener('submit', e =>{
     })
     .then(res => res.json())
     .then(back =>{
+        console.log(back)
+        console.log(typeof(back))
+        /*
         let output
         table.innerHTML = `
         <tr>
@@ -46,6 +49,6 @@ form.addEventListener('submit', e =>{
             </tr>
             `
         }
-        table.innerHTML += output
+        table.innerHTML += output*/
     })
 })
