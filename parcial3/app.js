@@ -13,7 +13,7 @@ form.addEventListener('submit', e =>{
     .then(back =>{
         console.log(back)
         console.log(typeof(back))
-        if(back.length){
+        if(typeof(back) == 'object'){
             let output
             table.innerHTML = `
             <tr>
