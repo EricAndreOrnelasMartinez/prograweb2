@@ -24,10 +24,10 @@ if($opc === 'opc1'){
 }else if($opc === 'opc6'){
     $sql = "SELECT sum(`creditos`) from kardex";
     $res = mysqli_query($con, $sql);
-    echo json_encode($res->fetch_assoc());
+    echo ($res->fetch_assoc());
 }else if($opc === 'opc7'){
     $sql = "SELECT avg(`cf`) from kardex where `periodo` != '' and `status` != '-'";
     $res = mysqli_query($con, $sql);
-    echo json_encode($res->fetch_assoc());
+    echo ($res->fetch_assoc());
 }
 ?>
