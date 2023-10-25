@@ -51,7 +51,7 @@ form.addEventListener('submit', e =>{
             }
             table.innerHTML += output
         }else{
-            console.log(back.sum(`creditos`))
+            console.log(back)
         }
     })
 })
