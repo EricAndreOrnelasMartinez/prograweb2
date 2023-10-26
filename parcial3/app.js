@@ -51,7 +51,14 @@ form.addEventListener('submit', e =>{
             }
             table.innerHTML += output
         }else{
-            console.log(back)
+            table.innerHTML = `
+            <tr>
+                <td>Valor</td>
+            </tr>
+            <tr>
+                <td>${back}</td>
+            </tr>
+            `
         }
     })
 })
