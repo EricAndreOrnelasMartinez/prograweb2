@@ -7,6 +7,6 @@
 session_start();
 unset($_SESSION['contador']);
 ?>
-<br><a href="contador_sesiones.php">Contador Sesiones</a>
+<br><a href="ejercicio3.php">Contador Sesiones</a>
 </body>
 </html>

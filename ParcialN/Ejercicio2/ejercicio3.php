@@ -10,7 +10,7 @@ if(!isset($_SESSION['contador']))
 else $_SESSION['contador']++;
 echo "Visitas:".$_SESSION['contador'];
 ?>
-<br><a href="reiniciaCont.php">Reiniciar contador</a>
+<br><a href="ejercicio3A.php">Reiniciar contador</a>
 </body>
 </html>
 
