@@ -9,10 +9,12 @@ form.addEventListener('submit', e=>{
     })
     .then(res => res.json())
     .then(back =>{
+        console.log(back)
+        /*
         if(back == '1'){
             console.log('Registrado');
         }else{
             console.log('error 500')
-        }
+        }*/
     })
 })
