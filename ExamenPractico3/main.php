@@ -1,9 +1,9 @@
 <?php
 session_start();
-if(!isset($_SESSION['nombre'])){
+if(!isset($_SESSION['name'])){
     header('./index.html');
 }
-$nombre = $_SESSION['nombre'];
+$nombre = $_SESSION['name'];
 $type = $_SESSION['type'];
 ?>
 <!DOCTYPE html>
