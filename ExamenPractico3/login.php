@@ -9,12 +9,10 @@ $res = $conn->query($sql);
 if($res->num_rows > 0){
     $sql = "SELECT password from usuarios where email='$email'";
     $res = $conn->query($sql);
-    while($row = $res->fetch_assoc()){
-        if($pass == $row){
-            echo json_encode('2');
-        }else{
-            echo json_encode('1');
-        }
+    if($pass == $res->fetch_assoc()){
+        echo json_encode('2');
+    }else{
+        echo json_encode('1');
     }
 }else{
     echo json_encode('0');
