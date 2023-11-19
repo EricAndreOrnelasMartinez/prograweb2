@@ -14,7 +14,6 @@ form.addEventListener('submit', e=>{
         }else{
             h3.innerHTML = 'Usuario o contraseña incorrectos'
             h3.style = 'background-color: red'
-            h3.style = 'color: withe'
         }
     })
 })
