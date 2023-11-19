@@ -10,7 +10,7 @@ form.addEventListener('submit', e=>{
     .then(res => res.json())
     .then(back =>{
         if(back == '2'){
-
+            window.location.assign('./main.php');
         }else{
             h3.innerHTML = 'Usuario o contraseña incorrectos'
             h3.style = 'background-color: red'
