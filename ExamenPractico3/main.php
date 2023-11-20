@@ -4,6 +4,7 @@ ini_set('display_errors', 1);
 require('dbcon.php');
 session_start();
 $nombre = $_SESSION['name'];
+echo $nombre;
 $type = $_SESSION['type'];
 if(!isset($nombre) || empty($nombre)){
     header('./index.html');
