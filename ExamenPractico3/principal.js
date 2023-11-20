@@ -1,4 +1,4 @@
-const form = document.getElementById('info')
+const form = document.getElementById('formulario')
 let table = document.getElementById('table')
 let ver = document.getElementById('ver')
 

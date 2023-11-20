@@ -49,7 +49,7 @@ if(!isset($nombre) || empty($nombre)){
             echo "</table>";
         }
     ?>
-    <form id="info">
+    <form id="formulario">
         <h2>Consultas</h2>
         <select name="opc">
             <option value="opc1">Consulta 1</option>
