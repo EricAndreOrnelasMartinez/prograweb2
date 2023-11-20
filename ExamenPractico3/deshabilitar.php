@@ -3,7 +3,6 @@ require('dbcon.php');
 $email = $_GET['email'];
 $sql = "UPDATE enable set enable='0' where email='$email'";
 $conn->query($sql);
-header('./main.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +12,8 @@ header('./main.php');
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        window.location.assign('./main.php');
+    </script>
 </body>
 </html>
