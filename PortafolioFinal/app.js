@@ -1,6 +1,12 @@
 let main = document.getElementById('main')
 let p2 = document.getElementById('p2')
 let p3 = document.getElementById('p3')
+let p1 = document.getElementById('p1')
+
+p1.addEventListener('click', e =>{
+    e.preventDefault()
+    window.location.assign('./')
+})
 
 p2.addEventListener("click", e =>{
     e.preventDefault();
@@ -39,5 +45,5 @@ p3.addEventListener("click", e => {
     <a href="http://3.137.155.81/prograweb2/parcial3/6_lista_materias.php"><button class="skewX" type="button">Ejercicio 5</button></a>
     <a href="http://3.137.155.81/prograweb2/parcial3/7_lista_titanic.php"><button class="skewX" type="button">Ejercicio 6</button></a>
     <a href="http://3.137.155.81/prograweb2/parcial3/9_contras.php"><button class="skewX" type="button">Ejercicio 7</button></a>
-    <a href="http://3.137.155.81/prograweb2/parcial3/10_ejemploencriptar4.php"><button class="skewX" type="button">Ejercicio 8</button></a>`
+    <a href="http://3.137.155.81/prograweb2/parcial3/12_login.html"><button class="skewX" type="button">Ejercicio 8</button></a>`
 })
