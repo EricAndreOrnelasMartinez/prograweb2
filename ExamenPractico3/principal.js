@@ -63,7 +63,3 @@ form.addEventListener('submit', e =>{
         }
     })
 })
-
-ver.addEventListener('click', e =>{
-    e.preventDefault()
-})

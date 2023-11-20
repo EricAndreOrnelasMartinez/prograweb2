@@ -29,6 +29,8 @@ if(!isset($nombre)){
             echo "<th>Nombre</th>";
             echo "<th>Email</th>";
             echo "<th>tipo</th>";
+            echo "<th>-</th>";
+            echo "<th>-</th>"
             echo "</tr>";
             while($row = $res->fetch_assoc()){
                 ?>
@@ -39,6 +41,7 @@ if(!isset($nombre)){
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['tipo']; ?></td>
                         <td><a href="./deshabilitar.php?email=<?php echo $row['email'];?>"><button>Deshabilitar</button></a></td>
+                        <td><a href="./habilitar.php?email=<?php echo $row['email'];?>"><button>Habilitar</button></a></td>
                     </tr>
             <?php
             }

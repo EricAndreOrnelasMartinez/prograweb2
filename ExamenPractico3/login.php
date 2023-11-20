@@ -12,10 +12,17 @@ if($res->num_rows > 0){
     //echo json_encode($res->fetch_assoc());
     $aux = $res->fetch_assoc();
     if($pass === $aux['password']){
-        session_start();
-        $_SESSION['name'] = $aux['nombre'];
-        $_SESSION['type'] = $aux['tipo'];
-        echo json_encode('2');
+        $sql = "SELECT * FROM enable where email='$email'";
+        $res = $conn->query($sql);
+        $aux = $res->fetch_assoc();
+        if($aux['enable'] == 1){
+            session_start();
+            $_SESSION['name'] = $aux['nombre'];
+            $_SESSION['type'] = $aux['tipo'];
+            echo json_encode('2');
+        }else{
+            echo json_encode('3');
+        }
     }else{
         echo json_encode('1');
     }
