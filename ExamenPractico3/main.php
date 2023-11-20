@@ -30,11 +30,12 @@ if(!isset($nombre)){
             echo "<th>Email</th>";
             echo "<th>tipo</th>";
             echo "</tr>";
-            //while($row = $res->fetch_assoc()){
+            while($row = $res->fetch_assoc()){
                 ?>
                     <tr>
                     </tr>
             <?php
+            }
             echo "</table>";
         }
     ?>
