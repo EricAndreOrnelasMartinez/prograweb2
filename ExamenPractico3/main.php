@@ -34,6 +34,10 @@ if(!isset($nombre)){
                 ?>
                     <tr>
                         <td><?php echo $row['id']; ?></td>
+                        <td><?php echo $row['usuario']; ?></td>
+                        <td><?php echo $row['nombre']; ?></td>
+                        <td><?php echo $row['email']; ?></td>
+                        <td><?php echo $row['tipo']; ?></td>
                     </tr>
             <?php
             }
