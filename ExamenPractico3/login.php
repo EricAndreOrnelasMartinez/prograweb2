@@ -14,8 +14,8 @@ if($res->num_rows > 0){
     if($pass === $aux['password']){
         $sql = "SELECT * FROM enable where email='$email'";
         $res = $conn->query($sql);
-        $aux = $res->fetch_assoc();
-        if($aux['enable'] == 1){
+        $aux2 = $res->fetch_assoc();
+        if($aux2['enable'] == 1){
             session_start();
             $_SESSION['name'] = $aux['nombre'];
             $_SESSION['type'] = $aux['tipo'];
