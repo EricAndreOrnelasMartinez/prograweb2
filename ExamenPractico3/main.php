@@ -33,6 +33,7 @@ if(!isset($nombre)){
             while($row = $res->fetch_assoc()){
                 ?>
                     <tr>
+                        <td><?php echo $row['id']; ?></td>
                     </tr>
             <?php
             }
