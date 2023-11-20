@@ -18,6 +18,7 @@ if(!isset($nombre) || empty($nombre)){
 </head>
 <body>
     <h1>Hola <?php echo $nombre?>!!</h1>
+    <a href="./"><button type='button'>Salir</button></a>
     <?php
         if($type == 0){
             $sql = "SELECT * FROM usuarios";
