@@ -18,32 +18,6 @@ if(!isset($nombre)){
 </head>
 <body>
     <h1>Hola <?php echo $nombre?>!!</h1>
-    <?php
-        if($type == 2){
-            $sql = "SELECT * FROM usuarios";
-            $res = $conn->query($sql);
-            echo "<table border='1'>";
-            echo "<tr>";
-            echo "<th>ID</th>";
-            echo "<th>Usuario</th>";
-            echo "<th>Nombre</th>";
-            echo "<th>Email</th>";
-            echo "<th>tipo</th>";
-            echo "</tr>";
-            while($row = $res->fetch_assoc()){
-                ?>
-                    <tr>
-                        <td><?php echo $row['id']?></td>
-                        <td><?php echo $row['usuario']?></td>
-                        <td><?php echo $row['nombre']?></td>
-                        <td><?php echo $row['email']?></td>
-                        <td><?php echo $row['tipo']?></td>
-                        <a href="./deshabilitar.php?email=<?php echo $row['email']?>"><button type="button">Deshabilitar</button></a>
-                    </tr>
-            <?php}
-            echo "</table>";
-        }
-    ?>
     <form id="info">
         <h2>Consultas</h2>
         <select name="opc">
