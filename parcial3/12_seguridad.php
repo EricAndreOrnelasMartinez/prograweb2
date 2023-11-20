@@ -13,17 +13,17 @@ session_start();
 </head>
 <body>
     <?php      
-    require("conexion.php");
+    require("dbcon.php");
 	// Check connection
-	if ($conn->connect_error) {
-	 die("Connection failed: " . $conn->connect_error);
+	if ($con->connect_error) {
+	 die("Connection failed: " . $con->connect_error);
 	}
         $usuario=$_POST['usuario'];
         $password=$_POST['password'];
         //echo $usuario." ".$password."<br>";
         if($usuario!="" && $password!=""){
             $sql = "SELECT user,pass,id,tipo FROM usuarios";
-            $result = $conn->query($sql);	    
+            $result = $con->query($sql);	    
 	    
             while($row = $result->fetch_assoc() ){
                 if($row["user"]==$usuario && $row["pass"]==$password ){
