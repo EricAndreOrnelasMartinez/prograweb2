@@ -30,7 +30,7 @@ if(!isset($nombre)){
             echo "<th>Email</th>";
             echo "<th>tipo</th>";
             echo "<th>-</th>";
-            echo "<th>-</th>"
+            echo "<th>-</th>";
             echo "</tr>";
             while($row = $res->fetch_assoc()){
                 ?>
