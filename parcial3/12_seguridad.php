@@ -22,11 +22,11 @@ session_start();
         $password=$_POST['password'];
         //echo $usuario." ".$password."<br>";
         if($usuario!="" && $password!=""){
-            $sql = "SELECT user,pass,id,tipo FROM usuarios";
+            $sql = "SELECT * FROM usuarios";
             $result = $con->query($sql);	    
 	    
             while($row = $result->fetch_assoc() ){
-                if($row["user"]==$usuario && $row["pass"]==$password ){
+                if($row["usuario"]==$usuario && $row["password"]==$password ){
                     $_SESSION["id"]=$row["id"];
                     $_SESSION["tipo"]=$row["tipo"];
                     echo "ID: ".$_SESSION["id"]."<br>";
