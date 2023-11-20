@@ -1,0 +1,43 @@
+<?php
+require_once("../conf.php");
+?>
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<title>Calificaciones</title>
+    </head>
+    <body>
+        <div><span> </span><span id="info1b"></span></div>
+
+
+<?php
+    
+	$random= rand(1,20);
+    $p1 = array(5,7,8,4,10);
+    $p2 = array(7,8,6,4,7);
+    $p3 = array(rand(1,10),rand(1,10),rand(1,10),rand(1,10),rand(1,10));
+
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //Chart 1 Example
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    $pc = new C_PhpChartX(array($p1,$p2,$p3),'chart1');
+
+    $pc->jqplot_show_plugins(true);
+    $pc->set_legend(array('show'=>true));
+    $pc->set_animate(true);
+	
+	$pc->set_title(array('text'=>'Mis Calificaciones'));
+    $pc->add_series(array('showLabel'=>true));
+    $pc->add_series(array('showLabel'=>true));
+    $pc->add_series(array('showLabel'=>true));
+    
+    $pc->draw(600,300);   
+    
+    ?>
+
+    </body>
+</html>
