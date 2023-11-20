@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
 ?>
 <!DOCTYPE html>
@@ -11,8 +13,7 @@ session_start();
 </head>
 <body>
     <?php      
-        require("conexion.php");
-	$conn = new mysqli($servername, $username, $password, $dbname);
+    require("conexion.php");
 	// Check connection
 	if ($conn->connect_error) {
 	 die("Connection failed: " . $conn->connect_error);
