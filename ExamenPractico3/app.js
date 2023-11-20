@@ -11,6 +11,9 @@ form.addEventListener('submit', e=>{
     .then(back =>{
         if(back == '2'){
             window.location.assign('./main.php');
+        }else if(back == '3'){
+            h3.innerHTML = 'Acceso negado, contacta al admin'
+            h3.style = 'background-color: red'
         }else{
             h3.innerHTML = 'Usuario o contraseña incorrectos'
             h3.style = 'background-color: red'
