@@ -38,6 +38,7 @@ if(!isset($nombre)){
                         <td><?php echo $row['nombre']; ?></td>
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['tipo']; ?></td>
+                        <td><a href="./deshabilitar.php?email=<?php echo $row['email'];?>"><button>Deshabilitar</button></a></td>
                     </tr>
             <?php
             }
