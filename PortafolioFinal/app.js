@@ -32,8 +32,8 @@ p2.addEventListener("click", e =>{
 p3.addEventListener("click", e => {
     e.preventDefault()
     main.innerHTML = `        <h2>Parcial 3</h2>
-    <a href="../Parcial 3/arreglos/index.html"><button class="skewX" type="button">Ejercicio 1</button></a>
-    <a href="../Parcial 3/Nomofobiatest/index.html"><button class="skewX" type="button">Ejercicio 2</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/"><button class="skewX" type="button">Ejercicio 1</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/2_formulariop3.html"><button class="skewX" type="button">Ejercicio 2</button></a>
     <a href="../Parcial 3/practica1/index.html"><button class="skewX" type="button">Ejercicio 3</button></a>
     <a href="../Parcial 3/practica2/index.html"><button class="skewX" type="button">Ejercicio 4</button></a>
     <a href="../Parcial 3/practica2/index.html"><button class="skewX" type="button">Ejercicio 5</button></a>

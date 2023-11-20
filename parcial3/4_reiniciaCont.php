@@ -7,6 +7,6 @@ unset($_SESSION['contador']);
 </head>
 <body>
 <h1>Reiniciando Contador...</h1>
-<br><a href="contador_sesiones.php">Contador Sesiones</a>
+<br><a href="4_contador_sesiones.php">Contador Sesiones</a>
 </body> 
 </html>
