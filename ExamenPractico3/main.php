@@ -20,7 +20,7 @@ if(!isset($nombre)){
 <body>
     <h1>Hola <?php echo $nombre?>!!</h1>
     <?php
-        if($type == 2){
+        if($type == 0){
             $sql = "SELECT * FROM usuarios";
             $res = $conn->query($sql);
             echo "<table border='1'>";
