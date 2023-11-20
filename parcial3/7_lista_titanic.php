@@ -1,9 +1,6 @@
 <?php
 require('fpdf.php');
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "titanic";
+require('conexion.php');
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 //Check connection

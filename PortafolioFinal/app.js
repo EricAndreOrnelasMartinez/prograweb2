@@ -34,10 +34,10 @@ p3.addEventListener("click", e => {
     main.innerHTML = `        <h2>Parcial 3</h2>
     <a href="http://3.137.155.81/prograweb2/parcial3/"><button class="skewX" type="button">Ejercicio 1</button></a>
     <a href="http://3.137.155.81/prograweb2/parcial3/2_formulariop3.html"><button class="skewX" type="button">Ejercicio 2</button></a>
-    <a href="../Parcial 3/practica1/index.html"><button class="skewX" type="button">Ejercicio 3</button></a>
-    <a href="../Parcial 3/practica2/index.html"><button class="skewX" type="button">Ejercicio 4</button></a>
-    <a href="../Parcial 3/practica2/index.html"><button class="skewX" type="button">Ejercicio 5</button></a>
-    <a href="../Parcial 3/practica3/index.html"><button class="skewX" type="button">Ejercicio 6</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/4_contador_sesiones.php"><button class="skewX" type="button">Ejercicio 3</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/5_captcha.php"><button class="skewX" type="button">Ejercicio 4</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/6_lista_materias.php"><button class="skewX" type="button">Ejercicio 5</button></a>
+    <a href="http://3.137.155.81/prograweb2/parcial3/7_lista_titanic.php"><button class="skewX" type="button">Ejercicio 6</button></a>
     <a href="../Parcial 3/practica3/index2.html"><button class="skewX" type="button">Ejercicio 7</button></a>
     <a href="../Parcial 3/reto3/index.html"><button class="skewX" type="button">Ejercicio 8</button></a>`
 })
