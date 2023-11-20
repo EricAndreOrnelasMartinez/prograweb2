@@ -30,17 +30,11 @@ if(!isset($nombre)){
             echo "<th>Email</th>";
             echo "<th>tipo</th>";
             echo "</tr>";
-            while($row = $res->fetch_assoc()){
+            //while($row = $res->fetch_assoc()){
                 ?>
                     <tr>
-                        <td><?php echo $row['id'];?></td>
-                        <td><?php echo $row['usuario'];?></td>
-                        <td><?php echo $row['nombre'];?></td>
-                        <td><?php echo $row['email'];?></td>
-                        <td><?php echo $row['tipo'];?></td>
-                        <a href="./deshabilitar.php?email=<?php echo $row['email'];?>"><button type="button">Deshabilitar</button></a>
                     </tr>
-            <?php}
+            <?php
             echo "</table>";
         }
     ?>
