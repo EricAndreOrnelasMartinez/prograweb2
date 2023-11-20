@@ -3,11 +3,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 require('dbcon.php');
 session_start();
-if(!isset($_SESSION['name'])){
-    header('./index.html');
-}
 $nombre = $_SESSION['name'];
 $type = $_SESSION['type'];
+if(!isset($nombre)){
+    header('./index.html');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,8 +38,8 @@ $type = $_SESSION['type'];
                         <td><?php echo $row['nombre']?></td>
                         <td><?php echo $row['email']?></td>
                         <td><?php echo $row['tipo']?></td>
+                        <a href="./deshabilitar.php?email=<?php echo $row['email']?>"><button type="button">Deshabilitar</button></a>
                     </tr>
-                    <a href="./deshabilitar.php?email=<?php echo $row['email']?>"><button type="button">Deshabilitar</button></a>
             <?php}
             echo "</table>";
         }
