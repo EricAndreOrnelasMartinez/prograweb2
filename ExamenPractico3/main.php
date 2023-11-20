@@ -67,4 +67,5 @@ if(!isset($nombre) || empty($nombre)){
     </table>
     
 </body>
+<script src="./principal.js"></script>
 </html>
