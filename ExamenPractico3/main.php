@@ -30,6 +30,7 @@ if(!isset($nombre)){
             echo "<th>Email</th>";
             echo "<th>tipo</th>";
             echo "</tr>";
+        }
     ?>
     <form id="info">
         <h2>Consultas</h2>
