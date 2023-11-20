@@ -5,6 +5,7 @@ require('dbcon.php');
 session_start();
 $nombre = $_SESSION['name'];
 $type = $_SESSION['type'];
+echo $type;
 if(!isset($nombre)){
     header('./index.html');
 }
