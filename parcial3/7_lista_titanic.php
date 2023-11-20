@@ -1,5 +1,5 @@
 <?php
-require('fpdf.php');
+require('../FPDF/fpdf.php');
 require('dbcon.php');
 // Create connection
 //Check connection
