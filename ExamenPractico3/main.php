@@ -18,6 +18,19 @@ if(!isset($nombre)){
 </head>
 <body>
     <h1>Hola <?php echo $nombre?>!!</h1>
+    <?php
+        if($type == 2){
+            $sql = "SELECT * FROM usuarios";
+            $res = $conn->query($sql);
+            echo "<table border='1'>";
+            echo "<tr>";
+            echo "<th>ID</th>";
+            echo "<th>Usuario</th>";
+            echo "<th>Nombre</th>";
+            echo "<th>Email</th>";
+            echo "<th>tipo</th>";
+            echo "</tr>";
+    ?>
     <form id="info">
         <h2>Consultas</h2>
         <select name="opc">
